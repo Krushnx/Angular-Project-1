@@ -1,0 +1,42 @@
+.title h1{
+    width: 290px;
+    text-align: center;
+    font-family: ubuntu;
+}
+
+.title p{
+    width: 600px;
+    text-align: center;
+}
+
+.title
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 43px;
+}
+
+
+.main-btn-2
+{
+    padding: 10px 26px;
+    margin: 4px 19px;
+    cursor: pointer;
+
+    border: none;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+}
+.main-btn
+{
+    padding: 10px 26px;
+    margin: 4px 19px;
+    cursor: pointer;
+    border : none;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(115, 16, 207);
+}

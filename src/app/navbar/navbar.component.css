@@ -1,0 +1,46 @@
+.nav
+{
+    display: flex;
+    justify-content: center;
+}
+
+.nav ul
+{
+    margin-right: 40px;
+    display: flex;
+}
+
+.nav img
+{
+    height: 50px;
+    margin-top: 15px;
+}
+
+.nav li,button
+{
+    /* width: 94px; */
+    list-style: none;
+    padding: 5px;
+    margin: 0px 25px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.nav li:hover
+{
+    box-shadow: 0px 3px rgb(115, 16, 207);
+}
+
+button
+{
+    padding: 5px 20px;
+    border: 1px solid white;
+    background-color: #111;
+    color: white;
+}
+
+button:hover
+{
+    background-color: white;
+    color: black;
+}
