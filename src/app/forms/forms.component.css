@@ -1,0 +1,15 @@
+input
+{
+    border: 1px solid white;
+    padding: 5px 20px;
+    color: white;
+    background-color: #111;
+}
+
+
+.formtag
+{
+    margin-top: 30px;
+    /* display: flex; */
+    margin-bottom: 50px;
+}

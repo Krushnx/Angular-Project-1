@@ -1,19 +1,9 @@
 <h1 style="text-align: center; margin-top: 35px;">Our Partners</h1>
 <div class="feature">
-    <div class="f-box">
-        <img src="https://1000logos.net/wp-content/uploads/2022/06/Logo-Motorola.png" alt="">
-        <h2>Motorola</h2>
+    <div class="f-box" *ngFor="let i of arr">
+        <img src={{i.img}} alt="">
+        <h2>{{i.name}}</h2>
     </div>
-    <div class="f-box">
-        <img src="https://logos-world.net/wp-content/uploads/2022/07/Logo-Suzuki.png" alt="">
-        <h2>Suzuki</h2>
-    </div>
-    <div class="f-box">
-        <img src="https://1000logos.net/wp-content/uploads/2022/06/Logo-Canon.png" alt="">
-        <h2>Canon</h2>
-    </div>
-    <div class="f-box">
-        <img src="https://imgv3.fotor.com/images/blog-richtext-image/CNN-Logo.png" alt="">
-        <h2>CNN</h2>
-    </div>
+
+
 </div>
